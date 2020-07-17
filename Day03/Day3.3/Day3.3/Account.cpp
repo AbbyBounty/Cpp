@@ -7,13 +7,13 @@
 //
 
 #include "Account.hpp"
-
+int Account::accountNo=1000;
 Account::Account()
 {
     this->name=new char;
     strcpy(this->name," ");
     this->balance=0.0;
-    
+    accountNo++;
 }
 
 void Account::setName(char* name)
@@ -34,4 +34,10 @@ void Account::setBalance(double balance)
 double Account::geBalance()
 {
     return this->balance;
+}
+void Account::displayAccount()
+{
+    cout<<"Accout Number :"<<accountNo<<endl;
+    cout<<"Name :"<<this->name<<endl;
+    cout<<"Balance :"<<this->balance<<endl;
 }

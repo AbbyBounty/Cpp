@@ -24,6 +24,7 @@ public:
     char* getName();
     void setBalance(double);
     double geBalance();
+    void displayAccount();
     
 };
 #endif /* Account_hpp */

@@ -7,9 +7,11 @@
 //
 
 #include <iostream>
-
+#include "Account.hpp"
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Account account;
+    account.setName("rayn");
+    account.setBalance(3500.50);
+    account.displayAccount();
     return 0;
 }
