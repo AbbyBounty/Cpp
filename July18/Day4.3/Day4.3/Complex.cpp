@@ -12,6 +12,7 @@ Complex::Complex(int r,int i)
 {
     real=r;
     img=i;
+    count++;
 }
 Complex::Complex()
 {
