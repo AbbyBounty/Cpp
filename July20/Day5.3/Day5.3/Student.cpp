@@ -8,7 +8,7 @@
 
 #include "Student.hpp"
 static int roll=100;
-static const char coll_name[20]="vit";
+static const char coll_name[20]="UCLA";
 Student::Student()
 {
     this->noOfSubject=5;

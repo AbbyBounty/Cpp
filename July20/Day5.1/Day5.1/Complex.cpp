@@ -58,8 +58,8 @@ Complex Complex::operator-(Complex &s)
 
 void Complex::operator++(int dummmy)
 {
-    this->real=++this->real;
-    this->img=++this->img;
+    this->real=this->real++;
+    this->img=this->img++;
 }
 
 void Complex::operator--()
