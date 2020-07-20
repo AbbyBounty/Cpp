@@ -29,7 +29,7 @@ public:
     Complex operator+(Complex&);
     Complex operator-(Complex&);
     void operator++(int);
-    void operator--();
+    void operator--();//
     
 };
 #endif /* Complex_hpp */

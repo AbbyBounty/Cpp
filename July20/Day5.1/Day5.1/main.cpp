@@ -24,6 +24,6 @@ int main(int argc, const char * argv[]) {
 
     cout<<"\nPre decrement"<<endl;
     --complex2;
-    complex2.DisplayComplex();
+    complex2.DisplayComplex();//
     return 0;
 }

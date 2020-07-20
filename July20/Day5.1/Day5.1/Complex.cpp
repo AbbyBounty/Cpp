@@ -65,6 +65,6 @@ void Complex::operator++(int dummmy)
 void Complex::operator--()
 {
      this->real=--this->real;
-    this->img=--this->img;
+    this->img=--this->img;//
     
 }
