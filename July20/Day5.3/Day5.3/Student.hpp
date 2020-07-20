@@ -15,12 +15,12 @@ using namespace std;
 class Student
 {
 private:
-    
+    int noOfSubject;
     char *name;
     int *mark;
 public:
     Student();
-    Student(const char *,int *);
+    Student(const char *,int noOfSubject,int *);
     Student(Student&);
     void acceptStudent(Student &);
     void displayStudent();

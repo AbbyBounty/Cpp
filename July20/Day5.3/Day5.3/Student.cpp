@@ -11,19 +11,19 @@ static int roll=100;
 static const char coll_name[20]="vit";
 Student::Student()
 {
-   
+    this->noOfSubject=5;
     name=new char;
     strcpy(name," ");
-    mark=new int[5];
+    mark=new int[this->noOfSubject];
     this->mark={0};
 }
 
-Student::Student(const char *name,int *mark)
+Student::Student(const char *name,int noOfSubject,int *mark)
 {
-      
+  
   this->name=new char;
   strcpy(this->name,name);
-  this->mark=new int[5];
+  this->mark=new int[noOfSubject];
   this->mark=mark;
     
 }

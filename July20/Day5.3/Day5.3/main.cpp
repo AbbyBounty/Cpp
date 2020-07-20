@@ -10,11 +10,12 @@
 #include "Student.hpp"
 int main(int argc, const char * argv[]) {
     int mark[5]={10,20,30,40,50};
-    Student s("abhi",mark);
+    Student s("rayn",5,mark);
     s.displayStudent();
     cout<<endl;
     Student *s1;
     s1=new Student[5];
+
     
     for(int i=0;i<5;i++)
     {
@@ -27,6 +28,7 @@ int main(int argc, const char * argv[]) {
         s1[i].displayStudent();
         cout<<endl;
     }
+    
     delete []s1;
     cout<<endl;
     return 0;
