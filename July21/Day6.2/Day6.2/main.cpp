@@ -9,7 +9,7 @@
 #include <iostream>
 #include<iostream>
 using namespace std;
-  
+//
 //class Test {  //const data members
 //    const int t;
 //
@@ -32,12 +32,12 @@ class Test {  //reference members
 public:
     Test(int &t):t(t)
     {
-        
+
     }  //Initializer
     int getT()
     {
         return t;
-        
+
     }
 };
 int main(int argc, const char * argv[]) {
