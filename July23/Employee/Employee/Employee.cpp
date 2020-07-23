@@ -18,10 +18,11 @@ Employee::Employee( char *n, int d, int m, int y,float s):nm(n),dob(d,m,y)
 {
    
     sal = s;
-    eid++;
+   
 }
 void Employee::display()
 {
+     eid++;
     cout << "\n\t ********** Emp id " << eid << " ************\n";
     nm.display();
     dob.display();

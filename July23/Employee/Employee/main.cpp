@@ -26,7 +26,7 @@ int main(int argc, const char * argv[]) {
     employee[1].display();
     employee[2].display();
     
-    
+    delete []employee;
     
     return 0;
 }
