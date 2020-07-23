@@ -12,7 +12,7 @@
 int main(int argc, const char * argv[]) {
 
     Person person("ryan",22,11,2002,"300 downtown, NY,USA ");
-    person.dispaly();
+    person.display();
     
     return 0;
 }

@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include<iostream>
 using namespace std;
-class emp
+class Person
 {
   
     Name nm;
@@ -22,8 +22,8 @@ class emp
     Address ad;
 
 public:
-    emp();
-    emp( char*, int, int, int, char*);
+    Person();
+    Person( char*, int, int, int, char*);
     void display();
 };
 #endif /* Person_hpp */

@@ -7,16 +7,16 @@
 //
 
 #include "Person.hpp"
-emp::emp()
+Person::Person()
 {
   
 }
-emp::emp( char *n, int d, int m, int y, char *as):nm(n),dob(d,m,y),ad(as)
+Person::Person( char *n, int d, int m, int y, char *as):nm(n),dob(d,m,y),ad(as)
 {
   
  
 }
-void emp::display()
+void Person::display()
 {
     cout << "\n\t ********** Person  " " ************\n";
     nm.display();
