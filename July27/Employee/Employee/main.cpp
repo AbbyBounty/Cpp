@@ -12,18 +12,14 @@
 int main(int argc, const char * argv[]) {
     
     Manager m1;
-    char name[20] = "Ryan";
-    char add[20] = "NY";
-    Manager m2(1200, 1100, 1, name, 1, 1, 2020, add, 25);
+    Manager m2(1200, 1100, 1, "Ryan", 1, 1, 2020, "NY", 25);
     cout << "\t*********MANAGER DETAILS************" << endl;
     m1.display();
     m2.display();
     
     
     Salesman s1;
-    char nam[20] = "John";
-    char ad[20] = "LA";
-    Salesman s2(1200, 1100, 1, nam, 1, 1, 2020, ad, 25);
+    Salesman s2(1200, 1100, 1, "John", 1, 1, 2020, "LA", 25);
     cout << "\n\n\t*********SALESMAN DETAILS************" << endl;
     s1.display();
     s2.display();
