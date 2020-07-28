@@ -26,6 +26,6 @@ public:
     void display();
     void setSalary(float);
     float getSalary();
-    virtual void calculateSalary(){}
+    virtual void calculateSalary()=0;
 };
 #endif /* Employee_hpp */
