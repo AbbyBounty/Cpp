@@ -12,8 +12,9 @@ class Shape
 {
 public:
     virtual int calculateArea(){return 0;}
-    virtual int calculatePerimeter(){return 0;};
+    virtual int calculatePerimeter()=0;
 };
+int Shape::calculatePerimeter(){return 0;}
 class Rectangle:public Shape
 {
 private:
@@ -34,6 +35,7 @@ public:
     }
     
 };
+
 
 class Triangle:public Shape
 {
@@ -59,16 +61,19 @@ public:
 int main(int argc, const char * argv[]) {
     
     Shape *s;
-    
+
     s=new Rectangle(10,20);
     cout<<"Area of Rectangle ::"<<s->calculateArea()<<endl;
     cout<<"Perimeter of Rectangle ::"<<s->calculatePerimeter()<<endl;
-    
-    
+
+
     cout<<endl;
-    
+
     s=new Triangle(12,13,14);
     cout<<"Area of Triangle ::"<<s->calculateArea()<<endl;
     cout<<"Perimeter of Triangle ::"<<s->calculatePerimeter()<<endl;
+    
+
+    
     return 0;
 }
