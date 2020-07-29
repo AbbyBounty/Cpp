@@ -13,7 +13,10 @@
 class SystemAdministrator:public Employee
 {
   public:
-   void  SystemUpdate();
+   void  SystemUpdate()
+    {
+        cout << "\n\n\t Updating System";
+    }
     void Fun()
     {
         cout << "\n\n\t Fun In SystemAdministrator";

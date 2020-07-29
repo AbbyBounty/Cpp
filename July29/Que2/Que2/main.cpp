@@ -16,10 +16,15 @@ void Check(Employee *a[], int size)
 {
     for (int i = 0; i < size; i++)
     {
-        a[i]->Fun();
-      //  if (typeid(*a[i]) == typeid(B))
-         //   dynamic_cast<B*>(a[i])->Check();
+   
+    if (typeid(*a[i]) == typeid(Programmer))
+        dynamic_cast<Programmer*>(a[i])->Codding();
+    else if(typeid(*a[i]) == typeid(DataBAseAdministrator))
+        dynamic_cast<DataBAseAdministrator*>(a[i])->CreateDataBase();
+    else if(typeid(*a[i]) == typeid(SystemAdministrator))
+        dynamic_cast<SystemAdministrator*>(a[i])->SystemUpdate();
     }
+
 }
 int main(int argc, const char * argv[]) {
  

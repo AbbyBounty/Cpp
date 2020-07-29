@@ -13,7 +13,11 @@
 class Programmer:public Employee
 {
 public:
-    void Codding();
+    void Codding()
+    {
+        cout << "\n\n\t Doing Coding";
+        
+    }
     void Fun()
        {
            cout << "\n\n\t Fun In Programmer";

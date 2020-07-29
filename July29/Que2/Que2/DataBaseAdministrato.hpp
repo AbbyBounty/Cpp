@@ -14,7 +14,10 @@
 class DataBAseAdministrator:public Employee
 {
 public:
-void CreateDataBase();
+void CreateDataBase()
+    {
+        cout << "\n\n\t Creting DataBase";
+    }
     void Fun()
          {
              cout << "\n\n\t Fun In DataBAseAdministrator";
