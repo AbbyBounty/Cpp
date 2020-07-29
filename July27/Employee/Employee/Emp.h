@@ -7,14 +7,12 @@
 #define EMP_
 class Employee
 {
-	int eid;
+	
 	Name nm;
-	Date dob;
-	Address ad;
-	float sal;
+
 public:
 	Employee();
-	Employee(int, char*, int, int, int, char*,float);
+	Employee(char*);
 	void display();
 };
 #endif
