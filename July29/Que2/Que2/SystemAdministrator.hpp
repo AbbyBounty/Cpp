@@ -14,6 +14,10 @@ class SystemAdministrator:public Employee
 {
   public:
    void  SystemUpdate();
+    void Fun()
+    {
+        cout << "\n\n\t Fun In SystemAdministrator";
+    }
     
 };
 #endif /* SystemAdministrator_hpp */

@@ -2,7 +2,7 @@
 #include<iostream>
 #include"Name.h"
 #include"Date.h"
-#include"addr.h"
+
 #ifndef EMP_
 #define EMP_
 class Employee
@@ -14,5 +14,9 @@ public:
 	Employee();
 	Employee(char*);
 	void display();
+     virtual void Fun()
+    {
+        cout << "\n\n\t Fun In Employee Class ";
+    }
 };
 #endif

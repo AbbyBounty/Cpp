@@ -14,5 +14,9 @@ class Programmer:public Employee
 {
 public:
     void Codding();
+    void Fun()
+       {
+           cout << "\n\n\t Fun In Programmer";
+       }
 };
 #endif /* Programmer_hpp */

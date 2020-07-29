@@ -15,6 +15,10 @@ class DataBAseAdministrator:public Employee
 {
 public:
 void CreateDataBase();
+    void Fun()
+         {
+             cout << "\n\n\t Fun In DataBAseAdministrator";
+         }
 
 };
 #endif /* DataBaseAdministrato_hpp */

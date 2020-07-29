@@ -11,16 +11,31 @@
 #include "Programmer.hpp"
 #include "DataBaseAdministrato.hpp"
 #include "SystemAdministrator.hpp"
-void check(Employee e)
+
+void Check(Employee *a[], int size)
 {
-     cout<<typeid(e).name()<<endl;
+    for (int i = 0; i < size; i++)
+    {
+        a[i]->Fun();
+      //  if (typeid(*a[i]) == typeid(B))
+         //   dynamic_cast<B*>(a[i])->Check();
+    }
 }
 int main(int argc, const char * argv[]) {
  
-    Employee *emp=new Employee[5];
+    Employee *emp[5];
+
+    emp[0]=new Employee();
+    emp[1]=new Programmer();
+    emp[2]=new DataBAseAdministrator();
+    emp[3]=new SystemAdministrator();
+    emp[1]=new Programmer();
+
+    Check(emp,5);
     
-    emp=new Programmer();
+
     
-    check(emp[0]);
+    
+        cout << "\n\n\n";
     return 0;
 }
