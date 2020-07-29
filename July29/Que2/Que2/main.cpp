@@ -29,7 +29,7 @@ int main(int argc, const char * argv[]) {
     emp[1]=new Programmer();
     emp[2]=new DataBAseAdministrator();
     emp[3]=new SystemAdministrator();
-    emp[1]=new Programmer();
+    emp[4]=new Programmer();
 
     Check(emp,5);
     
