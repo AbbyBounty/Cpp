@@ -20,3 +20,20 @@
      a) write Both constructor. 
      b) write accept and display.
      c) write get and set function.
+
+###  Day 03
+    1 Create a class Person with data members as
+        name, age, city.
+        use apropriate constructor.
+        and Display Fucntion.
+
+    2 Create Class Complex with data member as
+        real and imganary;
+        use count varible to check number of object created.
+        use constructor and Display fucntion.
+        implement function to show number of object created.
+
+    3 Create Account class with data member 
+        account number;
+        name, and balance.
+        use constructor and display method;
