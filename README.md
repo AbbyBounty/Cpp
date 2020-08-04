@@ -78,3 +78,10 @@
     3. Creata a class student with the data members as nosubject(number of subjects)
        and marks. Create a dynamic array for marks with length as nosubjects.
        Accept and Display marks of all the subject.
+       
+### 21 July
+    1. Create a class cEmployee with id as int data and name as  *char data members. 
+       Write a default constructor, parameterized constructor and demonstrate.
+
+    2. Write a class with data member as a constant and a reference variable.
+       Initialze it and demonstrate the working.
